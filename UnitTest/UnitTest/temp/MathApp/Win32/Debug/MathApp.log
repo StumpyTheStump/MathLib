@@ -1,0 +1,26 @@
+﻿  SceneObject.cpp
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.h(27): error C2653: 'aie': is not a class or namespace name
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.h(27): error C2061: syntax error: identifier 'Renderer2D'
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.h(31): error C2653: 'aie': is not a class or namespace name
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.h(31): error C2061: syntax error: identifier 'Renderer2D'
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(36): error C2511: 'void SceneObject::onDraw(aie::Renderer2D *)': overloaded member function not found in 'SceneObject'
+  c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.h(4): note: see declaration of 'SceneObject'
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(48): error C2511: 'void SceneObject::draw(aie::Renderer2D *)': overloaded member function not found in 'SceneObject'
+  c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.h(4): note: see declaration of 'SceneObject'
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(49): error C2660: 'SceneObject::onDraw': function does not take 1 arguments
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(51): error C2597: illegal reference to non-static member 'SceneObject::m_children'
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(51): error C3535: cannot deduce type for 'auto &&' from 'unknown'
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(51): error C2440: 'initializing': cannot convert from 'unknown' to 'int &&'
+  c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(51): note: Reason: cannot convert from 'unknown' to 'int'
+  c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(51): note: There is no context in which this conversion is possible
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(51): error C2228: left of '.begin' must have class/struct/union
+  c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(51): note: type is 'int'
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(51): error C2228: left of '.end' must have class/struct/union
+  c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(51): note: type is 'int'
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(51): error C3536: '<begin>$L0': cannot be used before it is initialized
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(51): error C3536: '<end>$L0': cannot be used before it is initialized
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(51): error C2100: illegal indirection
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(52): error C2227: left of '->draw' must point to class/struct/union/generic type
+  c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(52): note: type is 'int'
+c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.cpp(59): error C2084: function 'SceneObject::~SceneObject(void)' already has a body
+  c:\users\s171841\desktop\github\mathlib\trunk\unittest\unittest\mathapp\sceneobject.h(7): note: see previous definition of '{dtor}'
